@@ -18,7 +18,8 @@ const Controller = () => {
 
     // 初始化 SignalR 連線
     const newConnection = new signalR.HubConnectionBuilder()
-      .withUrl(`https://localhost:5001/storyhub?room=${roomId}`, {
+       .withUrl(`https://cold-bat-wxjw6j7v6vjfgqww-5000.app.github.dev/storyhub?room=${roomId}`, {
+      //.withUrl(`https://localhost:5001/storyhub?room=${roomId}`, {
       //.withUrl(`http://192.168.68.68:5000/storyhub?room=test`, {
         withCredentials: true
       })

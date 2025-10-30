@@ -17,7 +17,8 @@ const Display = () => {
 
     // 建立 SignalR 連線
     const newConnection = new signalR.HubConnectionBuilder()
-      .withUrl(`https://localhost:5001/storyhub?room=test`, {
+      .withUrl(`https://cold-bat-wxjw6j7v6vjfgqww-5000.app.github.dev/storyhub?room=test`, {
+      //.withUrl(`https://localhost:5001/storyhub?room=test`, {
       //  .withUrl(`http://192.168.68.68:5000/storyhub?room=test`, {
         withCredentials: true // 要搭配 CORS 的 AllowCredentials
       })
