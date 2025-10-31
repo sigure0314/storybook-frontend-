@@ -1,5 +1,6 @@
 [
-  { "image": "/images/page0.pgn", "note": "從前從前，有一隻小熊住在森林裡。" },
+  { "image": "/images/page0.png", "note": "從前從前，有一隻小熊住在森林裡。" },
   { "image": "/images/page1.png", "note": "牠找到了一條神秘小徑。" },
+
   { "image": "/images/page2.png", "note": "牠決定踏上冒險旅程。" }
 ]
